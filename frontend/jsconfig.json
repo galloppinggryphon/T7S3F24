@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",// "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+    }
+  },
+  "extends": "../jsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["**/~~*", "**/* copy.*"]
+}

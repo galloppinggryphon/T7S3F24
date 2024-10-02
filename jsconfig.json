@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+
+    /* Linting */
+    "strict": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    //Let eslint handle this
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": false
+  },
+  // "include": ["src"],
+  "exclude": ["**/~~*", "**/* copy.*"]
+}

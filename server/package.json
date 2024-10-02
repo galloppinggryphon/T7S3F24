@@ -1,0 +1,38 @@
+{
+  "name": "@t7s3f24/server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "gen_jwt_secret": "node -e \"console.log(require('crypto').randomBytes(32).toString('hex'))\""
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cmatrix": "^0.4.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-session": "^1.17.3",
+    "framer-motion": "^10.16.5",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "mongod": "^2.0.0",
+    "mongoose": "^7.6.5",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "eslint-plugin-n": "^16.6.2"
+  }
+}
