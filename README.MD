@@ -1,4 +1,26 @@
-# T7S3F24 Project Scaffold
+# T7S3F24
+
+⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
+
+
+※ **Group project in COMP231**
+
+※ **Centennial College**
+
+※ **Fall 2024**
+
+
+⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
+
+## 🤖 Group members
+
+* Ezaco Antonio -
+* Julian Andres Rojas Fernandez -
+* Yuta Iwahashi -
+* Juan Pablo Lenis -
+* Ayowolemi Eni-Omosule -
+* Bjornar Egede-Nissen - [galloppinggryphon](https://github.com/galloppinggryphon)
+* Md Abdul Kader -
 
 
 ## 👀 Structure
@@ -12,10 +34,38 @@ In addition there is the temporary `/frontend-dashboard-example`.
 
 The sub-repos are configured in [pnpm-workspace.yaml](./pnpm-workspace.yaml).
 
+## 🧪 Tech stack
+
+### Base
+
+* Node
+* PNPM
+* PNPM workspaces
+
+### Frontend
+
+* Vite
+* React
+* MUI
+* Tanstack Router
+
+### Server
+
+* Express
+* REST
+* JWT
+* Database - Mongo?
+
+## ✒️ Linting and formatting
+
+
+The project is set up to auto-format code on save using **ESLint** and the ESLint extension for VSCode.
+
+
+**For consistency, please do not use Prettier**.
+
 
 ## 💻 Development software
-
-
 
 | Name | Notes |
 |----|----|
@@ -60,7 +110,5 @@ Web address on localhost (in development mode): http://localhost:5173/
 From root folder: `pnpm server:start` or `node server`
 
 
-
----
 
 👾🤖👽
